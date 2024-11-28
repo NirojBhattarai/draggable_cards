@@ -4,55 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Draggable Cards</title>
-
-    <!-- Link External CSS File -->
-     <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- First Card -->
-    <div class="card_container">
-        <div class="card">
-            <div class="card_top">This is Card A</div>
-             <div class="card_content">
+    <div class="card-container">
+        <div class="card" draggable="true">
+            <div class="card-content">
                 <div class="avatar"></div>
-                <div class="comment">
-                    <p class="line1">Comment Line 1</p>
-                    <p class="line2">Comment Line 2</p>
+                <div class="info">
+                    <p class="name">Name</p>
+                    <p class="details">Details</p>
                 </div>
-             </div>
+            </div>
+        </div>
+        <div class="card" draggable="true">
+            <div class="card-content">
+                <div class="avatar"></div>
+                <div class="info">
+                    <p class="name">Name</p>
+                    <p class="details">Details</p>
+                </div>
+            </div>
+        </div>
+        <div class="card" draggable="true">
+            <div class="card-content">
+                <div class="avatar"></div>
+                <div class="info">
+                    <p class="name">Name</p>
+                    <p class="details">Details</p>
+                </div>
+            </div>
         </div>
     </div>
-
-      <!-- Second Card -->
-      <div class="card_container">
-        <div class="card">
-            <div class="card_top">This is Card B</div>
-             <div class="card_content">
-                <div class="avatar"></div>
-                <div class="comment">
-                    <p class="line1">Comment Line 1</p>
-                    <p class="line2">Comment Line 2</p>
-                </div>
-             </div>
-        </div>
-    </div>
-
-      <!-- Third Card -->
-      <div class="card_container">
-        <div class="card">
-            <div class="card_top">This is Card C</div>
-             <div class="card_content">
-                <div class="avatar"></div>
-                <div class="comment">
-                    <p class="line1">Comment Line 1</p>
-                    <p class="line2">Comment Line 2</p>
-                </div>
-             </div>
-        </div>
-    </div>
-
-    <!-- Link JavaScript File -->
-     <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
