@@ -19,6 +19,13 @@ cards.forEach((card, index) => {
         }
     });
 
-    
+    // Smooth scrolling effect while dragging
+    card.addEventListener('dragover', (event) => {
+        event.preventDefault();
+        if (index < cards.length - 1) {
+            const nextCard = cards[index + 1];
+            nextCard.style.transform = `translateY(${event.clientY - 150}px)`;
+        }
+    });
     
 });
