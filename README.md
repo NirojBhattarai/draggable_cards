@@ -38,3 +38,7 @@ Check out the live demo of the project here: [Live Demo](https://vritcards.netli
 - **CSS**: For styling and creating responsive layouts.  
 - **JavaScript**: For implementing the drag functionality.  
 
+---
+
+## ⌚ Time Spent
+It takes aprroximately 3 hours to reach at this point of project.
