@@ -10,5 +10,15 @@ cards.forEach((card, index) => {
     card.addEventListener('dragend', () => {
         card.classList.remove('active');
     });
+
+    // Drag behavior of card
+    card.addEventListener('drag', (event) => {
+        const { clientY } = event;
+        if (clientY) {
+            card.style.transform = `translateY(${clientY - 150}px)`;
+        }
+    });
+
+    
     
 });
